@@ -1,0 +1,49 @@
+/* pages/page6/page6.wxss */
+@import"/pages/page5/page5";
+.page{
+    background-color: #EFEFEF;
+}
+.buy{
+    width: 100%;
+    height: 90%;
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 0rpx;
+}
+.box{
+    width: 100%;
+    background-color: white;
+    padding-top: 30rpx;
+    border-bottom: 20rpx solid #EFEFEF; 
+}
+.four{
+    height: 150rpx;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.tu{
+    width: 140rpx;
+    height: 130rpx;
+}
+.name{
+    margin-left: 20rpx;
+    color: rgb(29, 130, 212);
+    font-size: 50rpx;
+    margin-top: 20rpx;
+    flex-direction: row;
+}
+.fif{
+    margin-top: 10rpx;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 20rpx;
+    border-bottom: 5rpx solid #efefef96;
+}
+.content{
+    font-size: 35rpx;
+    color: #000;
+}
+

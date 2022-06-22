@@ -1,0 +1,12 @@
+<!--pages/page6/page5.wxml-->
+<view class="all">
+<view class="first" bindtap="abc">
+<text class="shouye" style="color: {{onco}};">首页</text>
+</view>
+<view class="first" bindtap="def">
+<text class="shouye" style="color: {{twco}};">视频接收</text>
+</view>
+<view class="first" bindtap="mno">
+<text class="shouye" style="color: {{thco}};">其他</text>
+</view>
+</view>

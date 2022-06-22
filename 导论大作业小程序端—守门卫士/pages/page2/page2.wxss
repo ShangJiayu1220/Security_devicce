@@ -1,0 +1,49 @@
+/* pages/page2/page2.wxss */
+/**index.wxss**/
+.zhuce{
+  background-color: white; 
+  text-align: center;
+}
+.one{
+ width: 90%; 
+ height: 70rpx;
+ margin-top: 50rpx;
+ margin-left: 5%;
+ margin-right: 5%;
+ background-color: #f2f2f2;
+}
+.nm{
+  font-size: 30rpx;
+   color: rgb(165, 161, 161);
+}
+.we{
+  font-size: 30rpx;
+  line-height: 70rpx;
+}
+.two{
+  width: 90%; 
+  height: 70rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f2f2f2;
+ }
+ .three{
+  width: 90%; 
+  height: 70rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f2f2f2;
+ }
+ .hao{
+  width: 90%; 
+  height: 70rpx;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(93, 223, 67);
+  text-align:center ;
+  color: #fcf9f9;
+  font-size: 40rpx;
+ }

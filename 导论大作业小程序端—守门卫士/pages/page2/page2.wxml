@@ -1,0 +1,15 @@
+<view class="zhuce">用户注册
+<view class="one">
+  <input placeholder='用户名' placeholder-class="nm" class="we" type="text" bindinput="name"></input>
+</view>
+<view class="two">
+<input placeholder='密码' placeholder-class="nm" class="we" type="password" bindinput="pass"></input>
+</view>
+<view class="three">
+<input placeholder='确认密码' placeholder-class="nm" class="we" type="password" bindinput="word"></input>
+</view>
+<view class="hao" bindtap="sign">
+  <button class="hao" >
+  <navigator url="/pages/page6/page6" hover-class="navigator-hover">注册</navigator></button>  </view>
+  
+</view>

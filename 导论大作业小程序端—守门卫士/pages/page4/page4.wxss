@@ -1,0 +1,36 @@
+/* pages/pade4.wxss */
+@import"/pages/page5/page5";
+page{
+    background-color: #EFEFEF;
+}
+.fine{
+width: 94%;
+height: 550rpx;
+margin-left: 3%;
+margin-right: 3%;
+padding-top: 20rpx;
+padding-bottom: 20rpx;
+}
+.textarea{
+    width: 100%;
+    background-color: white;
+}
+.share{
+    width: 86%;
+    background-color: rgb(237, 240, 53);
+    color:rgb(238, 17, 17);
+    height: 80rpx;
+    margin:auto ;
+    margin-left:7% ;
+    margin-right: 7%;
+    text-align: center;
+    margin-top:50rpx ;
+    line-height:100%;
+    font-size: 50rpx;
+}
+.login-btn{
+    width: 40%!important;
+    background-color: #33ff33;
+    color: white;
+    font-weight: normal;
+  }

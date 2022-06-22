@@ -1,0 +1,14 @@
+<!--pages/page6/page6.wxml-->
+<scroll-view class="buy" scroll-y="true">
+<block wx:for="{{array}}" wx:for-item="itemName" wx:for-index="id">
+<view class="box">
+<view class="four">
+<image class="tu" src="{{itemName.tuxiang_url}}"></image>
+<view><text class="name">{{itemName.username}}</text></view>
+</view>
+<view class="fif">
+<text class="content">{{itemName.centent}}</text></view>
+</view>
+</block>
+</scroll-view>
+<include src="/pages/page5/page5"/>

@@ -1,0 +1,10 @@
+<!--pages/pade4.wxml-->
+<view class="textarea">
+<view  class= "content">
+     <button class="login-btn" bindtap="points" >查询视频</button>   
+  </view>
+
+<textarea placeholder="视频" class="fine" bindinput="yes"></textarea>
+</view>
+<view class="share" bindtap="sharer">报警</view>
+<include src="/pages/page5/page5"/>

@@ -1,0 +1,29 @@
+<!--pages/index/index.wxml-->
+<view  class= "content">
+    <view  class= "zm">
+    <text class="zm1">照明开关</text>
+    <switch class="kai" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+    </view>
+    <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">排气扇开关</text>
+      <switch class="kai" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+     </label>
+     </view>
+    
+     <view style="flex:1;width:100%">
+
+       <label class="xia">
+       <text class="zm1">当前亮度：{{Light}}</text>
+       </label>
+
+     </view>
+     
+     <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">当前压力：{{Press}} </text>
+     </label>
+     </view>
+     <button class="login-btn" bindtap="points" >获取数据</button>   
+  </view>
+<include src="/pages/page5/page5"/>

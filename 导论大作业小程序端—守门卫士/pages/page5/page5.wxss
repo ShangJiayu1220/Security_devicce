@@ -1,0 +1,23 @@
+/* pages/page6/page5.wxss */
+.all{
+    background-color: rgb(247, 245, 245);
+    width: 100%;
+    bottom: 0rpx;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+}
+.first{
+    width: 400rpx;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.shouye{
+    font-size: 30rpx;
+    
+}

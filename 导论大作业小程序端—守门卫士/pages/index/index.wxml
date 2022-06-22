@@ -1,0 +1,12 @@
+<view class="intro">
+  <image class="test" src="https://img0.baidu.com/it/u=3847497604,2192798&fm=253&fmt=auto&app=138&f=JPEG?w=610&h=364" ></image>
+  <view class="intro-text">守门卫士</view>
+  <button class="tmp" >
+  <navigator url="/pages/page3/page3" hover-class="navigator-hover">登录</navigator>  
+</button><button class="tmp" >
+  <navigator url="/pages/page2/page2" hover-class="navigator-hover">注册</navigator>  
+</button>
+
+  
+
+</view>
